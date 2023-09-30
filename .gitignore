@@ -1,0 +1,28 @@
+# Compiled class file
+*.class
+
+# Ignore logs and temp files
+*.log
+*.log.*
+*.tmp
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore build artifacts
+build/
+bin/
+out/
+
+# Ignore user-specific files
+*.iml
+.idea_modules/
+
+# Ignore the 'src/answers' directory
+src/answers/
+src/quiz
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
